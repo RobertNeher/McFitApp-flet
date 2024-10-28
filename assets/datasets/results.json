@@ -1,0 +1,222 @@
+{
+    "Results": [
+        {
+            "customerID": "TÜ001-6876582",
+            "trainings": [
+                {
+                    "trainingDate": "2023-01-29",
+                    "results": [
+                        {
+                            "machineID": "B1",
+                            "duration": 120,
+                            "doneToday": "110",
+                            "goalNext": 0
+                        },
+                        {
+                            "machineID": "B7",
+                            "duration": 120,
+                            "doneToday": "110",
+                            "goalNext": 0
+                        },
+                        {
+                            "machineID": "F2.1",
+                            "duration": 120,
+                            "doneToday": "86",
+                            "goalNext": 0
+                        },
+                        {
+                            "machineID": "F3.1",
+                            "duration": 120,
+                            "doneToday": "88",
+                            "goalNext": 0
+                        },
+                        {
+                            "machineID": "C1",
+                            "duration": 120,
+                            "doneToday": "88",
+                            "goalNext": 0
+                        },
+                        {
+                            "machineID": "C3",
+                            "duration": 120,
+                            "doneToday": "180",
+                            "goalNext": 0
+                        },
+                        {
+                            "machineID": "C7",
+                            "duration": 120,
+                            "doneToday": "92",
+                            "goalNext": 0
+                        },
+                        {
+                            "machineID": "D5",
+                            "duration": 120,
+                            "doneToday": "68",
+                            "goalNext": 0
+                        },
+                        {
+                            "machineID": "D6",
+                            "duration": 120,
+                            "doneToday": "92",
+                            "goalNext": 0
+                        },
+                        {
+                            "machineID": "H1",
+                            "duration": 120,
+                            "doneToday": "62",
+                            "goalNext": 0
+                        }
+                    ]
+                },
+                {
+                    "trainingDate": "2023-05-10",
+                    "results": [
+                        {
+                            "machineID": "A3",
+                            "duration": 120,
+                            "doneToday": "72",
+                            "goalNext": "74"
+                        },
+                        {
+                            "machineID": "B6",
+                            "duration": 120,
+                            "doneToday": "410",
+                            "goalNext": "410"
+                        },
+                        {
+                            "machineID": "F1.1",
+                            "duration": 120,
+                            "doneToday": "54",
+                            "goalNext": "56"
+                        },
+                        {
+                            "machineID": "F2.1",
+                            "duration": 120,
+                            "doneToday": "96",
+                            "goalNext": "96"
+                        },
+                        {
+                            "machineID": "F3.1",
+                            "duration": 120,
+                            "doneToday": "96",
+                            "goalNext": "96"
+                        },
+                        {
+                            "machineID": "C1",
+                            "duration": 120,
+                            "doneToday": "106",
+                            "goalNext": "108"
+                        },
+                        {
+                            "machineID": "C3",
+                            "duration": 120,
+                            "doneToday": "198",
+                            "goalNext": "200"
+                        },
+                        {
+                            "machineID": "C7",
+                            "duration": 120,
+                            "doneToday": "144",
+                            "goalNext": "150"
+                        },
+                        {
+                            "machineID": "D5",
+                            "duration": 120,
+                            "doneToday": "90",
+                            "goalNext": "92"
+                        },
+                        {
+                            "machineID": "D6",
+                            "duration": 120,
+                            "doneToday": "104",
+                            "goalNext": "106"
+                        },
+                        {
+                            "machineID": "H1",
+                            "duration": 120,
+                            "doneToday": "62",
+                            "goalNext": "64"
+                        }
+                    ]
+                },
+                {
+                    "trainingDate": "2023-06-18",
+                    "results": [
+                        {
+                            "machineID": "A3",
+                            "duration": 120,
+                            "doneToday": "88",
+                            "goalNext": "90"
+                        },
+                        {
+                            "machineID": "B4",
+                            "duration": 120,
+                            "doneToday": "120",
+                            "goalNext": "122"
+                        },
+                        {
+                            "machineID": "B6",
+                            "duration": 120,
+                            "doneToday": "430",
+                            "goalNext": "430"
+                        },
+                        {
+                            "machineID": "C1",
+                            "duration": 120,
+                            "doneToday": "116",
+                            "goalNext": "118"
+                        },
+                        {
+                            "machineID": "C3",
+                            "duration": 120,
+                            "doneToday": "234",
+                            "goalNext": "236"
+                        },
+                        {
+                            "machineID": "C7",
+                            "duration": 120,
+                            "doneToday": "172",
+                            "goalNext": "174"
+                        },
+                        {
+                            "machineID": "D5",
+                            "duration": 120,
+                            "doneToday": "94",
+                            "goalNext": "94"
+                        },
+                        {
+                            "machineID": "D6",
+                            "duration": 120,
+                            "doneToday": "120",
+                            "goalNext": "122"
+                        },
+                        {
+                            "machineID": "F1.1",
+                            "duration": 120,
+                            "doneToday": "66",
+                            "goalNext": "66"
+                        },
+                        {
+                            "machineID": "F2.1",
+                            "duration": 120,
+                            "doneToday": "110",
+                            "goalNext": "110"
+                        },
+                        {
+                            "machineID": "F3.1",
+                            "duration": 120,
+                            "doneToday": "124",
+                            "goalNext": "124"
+                        },
+                        {
+                            "machineID": "H1",
+                            "duration": 120,
+                            "doneToday": "78",
+                            "goalNext": "78"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
