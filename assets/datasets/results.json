@@ -16,7 +16,8 @@
                             "machineID": "B7",
                             "duration": 120,
                             "doneToday": "110",
-                            "goalNext": 0
+                            "goalNext": 0,
+                            "repeats": 0
                         },
                         {
                             "machineID": "F2.1",

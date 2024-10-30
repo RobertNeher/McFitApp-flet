@@ -15,202 +15,22 @@
                     "parameter_values": ["8", "-"],
                     "movement": "120°",
                     "comments": ""
-                },
-                {
-                    "machine_id": "F2.1",
-                    "parameter_values": ["N", "4 (gelb)", "9"],
-                    "movement": "",
-                    "comments": ""
-                },
-                {
-                    "machine_id": "F3.1",
-                    "parameter_values": ["1", "H7", "12", "10", "8", "N"],
-                    "movement": "",
-                    "comments": ""
-                },
-                {
-                    "machine_id": "C1",
-                    "parameter_values": ["7", "hinten", "1"],
-                    "movement": "20",
-                    "comments": "Beide Seiten!"
-                },
-                {
-                    "machine_id": "C3",
-                    "parameter_values": ["6", "parallel", "hinten"],
-                    "movement": "",
-                    "comments": ""
-                },
-                {
-                    "machine_id": "C7",
-                    "parameter_values": ["4", "-"],
-                    "movement": "5 - 18",
-                    "comments": "Arme eng am Körper"
-                },
-                {
-                    "machine_id": "D5",
-                    "parameter_values": ["2", "2", "-"],
-                    "movement": "",
-                    "comments": "Nur Polster halten. Ellbogen drücken, nicht Hand"
-                },
-                {
-                    "machine_id": "D6",
-                    "parameter_values": ["6", "3", "horizontal"],
-                    "movement": "",
-                    "comments": "Ellenbogen etwas nach Aussen"
-                },
-                {
-                    "machine_id": "H1",
-                    "parameter_values": ["9"],
-                    "movement": "",
-                    "comments": ""
                 }
             ]
         },
         {
-            "customer_id": 19711,
-            "valid_from": "2023-02-15",
+            "customer_id": "TÜ001-6876582",
+            "valid_from": "2024-11-15",
             "machines": [
                 {
-                    "machine_id": "A3",
+                    "machine_id": "A03",
                     "parameter_values": ["2", "3", "4"],
                     "movement": "",
                     "comments": ""
                 },
                 {
-                    "machine_id": "B6",
+                    "machine_id": "B06",
                     "parameter_values": ["-19", "2", "4"],
-                    "movement": "",
-                    "comments": ""
-                },
-                {
-                    "machine_id": "F1.1",
-                    "parameter_values": ["1", "F4", "12", "2", "4"],
-                    "movement": "",
-                    "comments": ""
-                },
-                {
-                    "machine_id": "F2.1",
-                    "parameter_values": ["4", "9"],
-                    "movement": "",
-                    "comments": ""
-                },
-                {
-                    "machine_id": "F3.1",
-                    "parameter_values": ["1", "H7", "12", "10", "8"],
-                    "movement": "",
-                    "comments": ""
-                },
-                {
-                    "machine_id": "C1",
-                    "parameter_values": ["7", "hinten", "1"],
-                    "movement": "20",
-                    "comments": "Beide Seiten!"
-                },
-                {
-                    "machine_id": "C3",
-                    "parameter_values": ["6", "parallel", "hinten"],
-                    "movement": "",
-                    "comments": ""
-                },
-                {
-                    "machine_id": "C7",
-                    "parameter_values": ["4"],
-                    "movement": "5 - 18",
-                    "comments": "Arme eng am Körper"
-                },
-                {
-                    "machine_id": "D5",
-                    "parameter_values": ["2", "2"],
-                    "movement": "",
-                    "comments": "Nur Polster halten. Ellbogen drücken, nicht Hand"
-                },
-                {
-                    "machine_id": "D6",
-                    "parameter_values": ["6", "3", "horizontal"],
-                    "movement": "",
-                    "comments": "Ellenbogen etwas nach Aussen"
-                },
-                {
-                    "machine_id": "H1",
-                    "parameter_values": ["9"],
-                    "movement": "",
-                    "comments": ""
-                }
-            ]
-        },
-        {
-            "customer_id": 19711,
-            "valid_from": "2023-05-13",
-            "machines": [
-                {
-                    "machine_id": "A3",
-                    "parameter_values": ["2", "3", "4"],
-                    "movement": "",
-                    "comments": ""
-                },
-                {
-                    "machine_id": "B4",
-                    "parameter_values": ["Ja", "1", "2", "1"],
-                    "movement": "",
-                    "comments": ""
-                },
-                {
-                    "machine_id": "B6",
-                    "parameter_values": ["-19", "2", "4"],
-                    "movement": "",
-                    "comments": ""
-                },
-                {
-                    "machine_id": "F1.1",
-                    "parameter_values": ["1", "F4", "12", "2", "4"],
-                    "movement": "",
-                    "comments": ""
-                },
-                {
-                    "machine_id": "F2.1",
-                    "parameter_values": ["4", "9"],
-                    "movement": "",
-                    "comments": ""
-                },
-                {
-                    "machine_id": "F3.1",
-                    "parameter_values": ["1", "H7", "12", "10", "8"],
-                    "movement": "",
-                    "comments": ""
-                },
-                {
-                    "machine_id": "C1",
-                    "parameter_values": ["7", "hinten", "1"],
-                    "movement": "20",
-                    "comments": "Beide Seiten!"
-                },
-                {
-                    "machine_id": "C3",
-                    "parameter_values": ["6", "parallel", "hinten"],
-                    "movement": "",
-                    "comments": ""
-                },
-                {
-                    "machine_id": "C7",
-                    "parameter_values": ["4"],
-                    "movement": "5 - 18",
-                    "comments": "Arme eng am Körper"
-                },
-                {
-                    "machine_id": "D5",
-                    "parameter_values": ["2", "2"],
-                    "movement": "",
-                    "comments": "Nur Polster halten. Ellbogen drücken, nicht Hand"
-                },
-                {
-                    "machine_id": "D6",
-                    "parameter_values": ["6", "3", "horizontal"],
-                    "movement": "",
-                    "comments": "Ellenbogen etwas nach Aussen"
-                },
-                {
-                    "machine_id": "H1",
-                    "parameter_values": ["9"],
                     "movement": "",
                     "comments": ""
                 }

@@ -2,8 +2,9 @@
     "Preferences": [
       {
         "customer_id": "TÜ001-6876582",
+        "studio": "Tübingen",
         "duration": "120",
-        "repeats": 12,
+        "repeats": "12",
         "auto_forward": "0"
       }
     ]
