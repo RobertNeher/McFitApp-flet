@@ -5,6 +5,7 @@ Trainings companion for McFit Training
 Using Flet, instead of pure Flutter/Dart.
 
 # Prerequisites
+Check content of JSON files in assets/datasets and customize customer, machines, training plan with your personal data.<br/>
 Python Flet: ``pip install flet`` (https://pub.dev/documentation/flet/latest/index.html)<br/>
 Datetime: ``pip install datetime``
 
