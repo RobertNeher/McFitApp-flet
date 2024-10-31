@@ -6,14 +6,74 @@
             "machines": [
                 {
                     "machine_id": "A01",
-                    "parameter_values": ["8", "-"],
-                    "movement": "6°",
+                    "parameter_values": [35],
+                    "repeats": 12,
                     "comments": ""
                 },
                 {
                     "machine_id": "A02",
-                    "parameter_values": ["8", "-"],
-                    "movement": "120°",
+                    "parameter_values": [40],
+                    "repeats": 12,
+                    "comments": ""
+                },
+                {
+                    "machine_id": "B01",
+                    "parameter_values": [40],
+                    "repeats": 12,
+                    "comments": ""
+                },
+                {
+                    "machine_id": "B02",
+                    "parameter_values": [45],
+                    "repeats": 24,
+                    "comments": ""
+                },
+                {
+                    "machine_id": "D01",
+                    "parameter_values": [20],
+                    "repeats": 12,
+                    "comments": ""
+                },
+                {
+                    "machine_id": "B21",
+                    "parameter_values": [37],
+                    "repeats": 12,
+                    "comments": ""
+                },
+                {
+                    "machine_id": "C01",
+                    "parameter_values": [30],
+                    "repeats": 12,
+                    "comments": ""
+                },
+                {
+                    "machine_id": "D11",
+                    "parameter_values": [50],
+                    "repeats": 12,
+                    "comments": ""
+                },
+                {
+                    "machine_id": "F10",
+                    "parameter_values": [65, 3],
+                    "repeats": 12,
+                    "comments": ""
+                },
+                {
+                    "machine_id": "F24",
+                    "parameter_values": [45, 4, 3, 9],
+                    "repeats": 12,
+                    "comments": ""
+                },
+                {
+                    "machine_id": "X01",
+                    "parameter_values": [40],
+                    "repeats": 12,
+                    "comments": ""
+                },
+                {
+                    "machine_id": "X02",
+                    "parameter_values": [45, 3, 5],
+                    "repeats": 12,
                     "comments": ""
                 }
             ]
@@ -23,15 +83,13 @@
             "valid_from": "2024-11-15",
             "machines": [
                 {
-                    "machine_id": "A03",
-                    "parameter_values": ["2", "3", "4"],
-                    "movement": "",
+                    "machine_id": "A01",
+                    "parameter_values": [],
                     "comments": ""
                 },
                 {
-                    "machine_id": "B06",
-                    "parameter_values": ["-19", "2", "4"],
-                    "movement": "",
+                    "machine_id": "A02",
+                    "parameter_values": [],
                     "comments": ""
                 }
             ]

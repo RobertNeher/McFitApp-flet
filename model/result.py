@@ -8,13 +8,14 @@ class Result:
         self.timeStamp = datetime.today().strftime("%Y-%m-%d")
 
         self.db = src.persistence.DBConnection(initialize=False)
-
+        self.cursor = self.db.connection.cursor()
 
     def all(self):
-        result_rows = self.db.connection.execute(f"""SELECT *
+        SQL = f"""SELECT *
                     FROM {src.persistence.RESULT_TABLE}
-                    WHERE customer_id = {self.customerID}
-                    """)
+                    WHERE customer_id = ?
+                    """
+        result_rows = self.cursor.execute(SQL, [self.customerID])
 
         result = [dict((result_rows.description[i][0], value)
                for i, value in enumerate(row)) for row in result_rows.fetchall()]
@@ -22,11 +23,12 @@ class Result:
         return (result if len(result) > 0 else None)
 
     def trainingdates(self, latest: bool):
-        result_rows = self.db.connection.execute(f"""SELECT DISTINCT training_date
+        SQL = f"""SELECT DISTINCT training_date
                     FROM {src.persistence.RESULT_TABLE}
-                    WHERE customer_id = {self.customerID}
+                    WHERE customer_id = ?
                     ORDER BY training_date DESC
-                    """)
+                    """
+        result_rows = self.cursor.execute(SQL, [self.customerID])
 
         result = [dict((result_rows.description[i][0], value[0:10])
                for i, value in enumerate(row)) for row in result_rows.fetchall()]
@@ -37,16 +39,17 @@ class Result:
             return None
 
     def byDate(self, trainingDate):
-        result_rows = self.db.connection.execute(f"""SELECT
+        SQL = f"""SELECT
                     machine_id,
                     duration,
                     weight_done,
                     weight_planned
                     FROM {src.persistence.RESULT_TABLE}
-                    WHERE customer_id = {self.customerID}
-                    AND training_date LIKE "{trainingDate[0:10]}%"
+                    WHERE customer_id = ?
+                    AND training_date LIKE '?%'
                     ORDER BY machine_id
-                    """)
+                    """
+        result_rows = self.cursor.execute(SQL, [self.customerID, trainingDate[0:10]])
 
         result = [dict((result_rows.description[i][0], value)
                for i, value in enumerate(row)) for row in result_rows.fetchall()]
@@ -57,21 +60,31 @@ class Result:
             return None
 
     def latest(self, machineID):
-        latest_training = self.trainingdates(latest=True)["training_date"]
+        latestDate =  self.trainingdates(latest=True)
+
+        if latestDate is None:
+            latest_training = ""
+        else:
+            latest_training = latestDate["training_date"]
 
         if machineID is None:
-            result_rows = self.db.connection.execute(f"""SELECT *
+            SQL = f"""SELECT *
                         FROM {src.persistence.RESULT_TABLE}
-                        WHERE customer_id = {self.customerID} AND training_date = '{latest_training}'
+                        WHERE customer_id = ? AND training_date = '?'
                         ORDER BY machine_id
-                        """)
+                        """
+            result_rows = self.cursor.execute(SQL, [self.customerID, latest_training])
         else:
-            result_rows = self.db.connection.execute(f"""SELECT *
+            SQL = f"""SELECT *
                         FROM {src.persistence.RESULT_TABLE}
-                        WHERE customer_id = {self.customerID}
-                        AND training_date LIKE '{latest_training}%'
-                        AND machine_id = '{machineID}'
-                        """)
+                        WHERE customer_id = ?"""
+            SQL += "AND training_date LIKE '?%'" if len(latest_training) > 0 else ""
+            SQL += " AND machine_id = ?"
+
+        if len(latest_training) == 0:
+            result_rows = self.cursor.execute(SQL, [self.customerID, machineID])
+        else:
+            result_rows = self.cursor.execute(SQL, [self.customerID, latest_training, machineID])
 
         result = [dict((result_rows.description[i][0], value)
                for i, value in enumerate(row)) for row in result_rows.fetchall()]
@@ -82,18 +95,17 @@ class Result:
             return None
 
     def deleteResults(self, ymdDateString):
-        SQLCommand = f"DELETE FROM {src.persistence.RESULT_TABLE}"
+        SQL = f"DELETE FROM {src.persistence.RESULT_TABLE}"
 
         if ymdDateString != "Alle":
-            SQLCommand += f" WHERE training_date LIKE '{ymdDateString}%'"
+            SQL += f" WHERE training_date LIKE '?%'"
 
-        self.db.connection.execute(SQLCommand)
-        self.db.connection.commit()
+        self.cursor.execute(SQL, ymdDateString)
+        self.cursor.commit()
 
 
-    def saveResults(self, machineID, duration, weightDone, weightPlanned):
-        self.db.connection.execute(f"""
-                INSERT OR REPLACE INTO {src.persistence.RESULT_TABLE}
+    def saveResults(self, machineID, duration, weightDone, weightPlanned, repeats):
+        SQL = f"""INSERT OR REPLACE INTO {src.persistence.RESULT_TABLE}
                 (
                     customer_id,
                     training_date,
@@ -102,16 +114,17 @@ class Result:
                     weight_done,
                     weight_planned
                 )
-                VALUES(
-                    {self.customerID},
-                    '{self.timeStamp}',
-                    '{machineID}',
-                    {duration},
-                    {weightDone},
-                    {weightPlanned}
-                )
-        """)
-        self.db.connection.commit()
+                VALUES(?, ?, ?, ?, ?, ?)
+                """
+
+        self.cursor.execute(SQL, [self.customerID,
+                    self.timeStamp,
+                    machineID,
+                    duration,
+                    weightDone,
+                    weightPlanned,
+                    repeats])
+        self.cursor.commit()
 
 
 #-------------------------- TEST -------------------------#

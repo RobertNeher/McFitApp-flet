@@ -22,7 +22,7 @@ def main(page: Page):
     customerID = ""
     prefs = Preferences()
     locale.setlocale(locale.LC_TIME, "de_DE")
-    page.window_bgcolor = colors,
+    page.window.bgcolor = colors,
     page.fonts = {
         "Raleway": "fonts/Raleway-Regular.ttf",
         "McFit": "fonts/McFitApp.ttf",
@@ -34,11 +34,11 @@ def main(page: Page):
         use_material3=True
     )
     page.title = APP_TITLE
-    page.window_max_height= 1000
-    page.window_max_width=500
-    page.window_height=1000
-    page.window_width=500
-    page.route="/trainingsPlanOverview"
+    page.window.max_height= 1000
+    page.window.max_width=500
+    page.window.height=750
+    page.window.width=400
+    page.route="/login"
 
     def setCustomerID(e, customer_id):
         customerID = customer_id

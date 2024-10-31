@@ -168,7 +168,7 @@ class EditTrainingsPlan(UserControl):
                 column_spacing=0,
                 heading_row_height=0,
                 divider_thickness=0,
-                data_row_height=PARAMETER_ROW_HEIGHT,
+                data_row_max_height=PARAMETER_ROW_HEIGHT,
                 data_text_style=TextStyle(
                     size = 11,
                     weight = FontWeight.NORMAL,

@@ -2,6 +2,7 @@ import os
 import json
 import sqlite3 as sl
 from datetime import datetime
+from PIL import Image
 
 ASSETS_FOLDER = ".\\assets/\\datasets"
 DB_FILE = "assets/McFit.db"
@@ -88,7 +89,7 @@ class DBConnection:
                 self.initialize_customers()
                 self.initialize_machines()
                 self.initialize_plans()
-                self.initialize_results()
+                # self.initialize_results()
 
     def initialize_preferences(self) -> None:
         settings_init_file = os.path.join(ASSETS_FOLDER, PREFERENCE_TABLE + ".json")
@@ -142,6 +143,8 @@ class DBConnection:
         return result
 
     def initialize_machines(self) -> None:
+        logo_file = open(f"{IMAGE_FOLDER}\\McFit-weisserHG.png", "rb")
+
         machine_init_file = os.path.join(ASSETS_FOLDER, MACHINE_TABLE + ".json")
         SQL = f"""INSERT INTO {MACHINE_TABLE} (
                         name,
@@ -158,9 +161,12 @@ class DBConnection:
                 machines = json.load(json_file)
 
             for machine in machines["Machines"]:
-                with open(f"{IMAGE_FOLDER}\\{machine['name'].strip(' ')}.png", "rb") as image_file:
-                    blob_data = image_file.read()
-
+                try:
+                    with open(f"{IMAGE_FOLDER}\\{machine['name'].strip(' ')}.png", "rb") as image_file:
+                        blob_data = image_file.read()
+                except OSError as e:
+                    blob_data = logo_file.read()
+    
                 data_tuple = (
                     machine['name'],
                     machine['title'],
@@ -186,7 +192,6 @@ class DBConnection:
                                                 valid_from,
                                                 machine_id,
                                                 machine_parameters,
-                                                machine_movement,
                                                 machine_comments
                                             )
                                             VALUES (
@@ -194,7 +199,6 @@ class DBConnection:
                                                 "{plan['valid_from']}",
                                                 "{machine['machine_id']}",
                                                 "{machine['parameter_values']}",
-                                                "{machine['movement']}",
                                                 "{machine['comments']}"
                                             )""")
 

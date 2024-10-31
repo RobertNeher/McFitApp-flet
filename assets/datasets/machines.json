@@ -2,297 +2,69 @@
   "Machines": [
     {
       "name": "A01",
-      "title": "Streckung im Hüftgelenk",
-      "parameters": ["Lehne", "Beine", "Anschlag"],
-      "description": "Mit der Übung zur Streckung im Hüftgelenk trainieren Sie den großen Gesäßmuskel, den zweiköpfigen Schenkelbeuger, die Streckmuskeln der Wirbelsäule sowie die Halb- und Plattensehnenmuskeln. Bei der Übung strecken Sie die Beine im Hüftgelenk so weit wie möglich nach hinten."
+      "title": "Brustpresse",
+      "parameters": ["Gewicht"],
+      "description": ""
     },
     {
       "name": "A02",
-      "title": "Beugung im Hüftgelenk",
-      "parameters": ["***", "Beine", "Anschlag"],
-      "description": "Bei der Beugung im Hüftgelenk trainieren Sie den Hüftlendenmuskel und den geraden Bauchmuskel. In der Ausführung beugen Sie die Beine im Hüftgelenk, indem die Knie zur Brust gezogen werden."
+      "title": "Butterfly",
+      "parameters": ["Gewicht"],
+      "description": ""
     },
     {
-      "name": "A3",
-      "title": "Spreizung im Hüftgelenk",
-      "parameters": ["Lehne", "Beine", "Anschlag"],
-      "description": "Die Maschine zur Spreizung im Hüftgelenk trainiert den kleinen und mittleren Gesäßmuskel. Bei der Übung drücken Sie die Oberschenkel so weit wie möglich zur Seite."
-    },
-    {
-      "name": "A4",
-      "title": "Anziehung im Hüftgelenk",
-      "parameters": ["***", "Beine", "Anschlag"],
-      "description": "Mit der A4 zur Anziehung im Hüftgelenk trainieren Sie Ihre Schenkelanzieher. In der Ausführung drücken Sie die Oberschenkel bis zum Anschlag der Beinpolster zusammen."
-    },
-    {
-      "name": "A5",
-      "title": "Kontraktion des Beckenbodens",
-      "parameters": ["***", "Beine", "Anschlag"],
-      "description": "Die Maschine zur Kontraktion des Beckenbodens trainiert den Sitzbeinschwellkörpermuskel, den tiefen Dammmuskel sowie die Afterhebemuskeln. Für die Übung berühren Sie einen Sensorschlauch, welcher mit einem PC verbunden ist. Ihre Beckenbodenkontraktionen werden auf dem Bildschirm angezeigt."
-    },
-    {
-      "name": "B1",
-      "title": "Streckung im Kniegelenk",
-      "parameters": ["Lehne", "Beine"],
-      "description": "Bei der Streckung im Kniegelenk trainieren Sie den vierköpfigen Schenkelmuskel. In der Ausführung strecken Sie die Beine, bis sie vollständig gestreckt sind"
-    },
-    {
-      "name": "B3",
-      "title": "Pronation im unteren Fußgelenk",
-      "parameters": ["***", "Ferse", "Ballen", "Spitze"],
-      "description": "Die Übung zur Pronation im unteren Sprunggelenk trainiert den Wadenbeinmuskel, den vorderen Schienbeinmuskel sowie den langen Zehenstrecker. Bei der Übung drehen Sie die Füße langsam nach außen oben."
-    },
-    {
-      "name": "B4",
-      "title": "Supination im unteren Fußgelenk",
-      "parameters": ["Polster", "Ferse", "Ballen", "Spitze"],
-      "description": "Die Übung zur Supination im unteren Sprunggelenk trainiert den hinteren Schienbeinmuskel, den langen Großzehenbeuger sowie den langen Zehenbeuger. Bei der Übung drehen Sie die Füße langsam nach innen unten."
-    },
-    {
-      "name": "B5",
-      "title": "Beugung im Kniegelenk in Bauchlage",
-      "parameters": ["***", "Ferse", "Ballen", "Spitze"],
-      "description": "Bei der Beugung im Kniegelenk in Bauchlage trainieren Sie den zweiköpfigen Schenkelbeuger sowie die Halb- und Plattsehnenmuskeln. In der Übungsausführung versuchen Sie, Ihre Beine im Kniegelenk zu beugen und Ihre Fersen zum Gesäß hin zu bewegen."
-    },
-    {
-      "name": "B06",
-      "title": "Beinpressen",
-      "parameters": ["Sitz", "Lehne", "Schulter"],
-      "description": "Beim Beinpressen trainieren Sie den zwei- und vierköpfigen Schenkelmuskel sowie den Halb- und Plattsehnenmuskel und den großen Gesäßmuskel. Bei der Übung drücken Sie mit beiden Beinen das Fußbrett nach vorne."
-    },
-    {
-      "name": "i-B6",
-      "title": "Beinpressen",
-      "parameters": ["***", "Lehne", "Schulter"],
-      "description": "Beim Beinpressen trainieren Sie den zwei- und vierköpfigen Schenkelmuskel sowie den Halb- und Plattsehnenmuskel und den großen Gesäßmuskel. Die Übung erfolgt alternierend. Während Sie mit einem Bein drücken, bremsen Sie mit dem anderen Bein ab. Dadurch erzeugen Sie selbst den Widerstand."
-    },
-    {
-      "name": "B7",
-      "title": "Beugung im Kniegelenk, sitzend",
-      "parameters": ["Lehne", "Beine"],
-      "description": "Mit der Beugung im Kniegelenk sitzend trainieren Sie dieselben Muskeln wie bei der B5 in einer anderen Position. Der zweiköpfige Schenkelbeuger sowie die Halb- und Plattsehnenmuskeln werden trainiert. In sitzender Position beugen Sie die Beine im Kniegelenk, indem Sie versuchen, mit den Fersen so weit wie möglich Richtung Gesäß zu kommen"
-    },
-    {
-      "name": "B8",
-      "title": "Fußheben",
-      "parameters": ["***", "Beine"],
-      "description": "Beim Fußheben trainieren Sie den vorderen Schienbeinmuskel. Bei der Übung heben Sie den Fuß langsam im Fußgelenk."
-    },
-    {
-      "name": "C1",
-      "title": "Überzug",
-      "parameters": ["Sitz", "Lehne", "Arme"],
-      "description": "Beim Überzug trainieren Sie den großen Rückenmuskel. Bei der Übungsausführung drücken Sie mit den Oberarmen zunächst nach vorne, dann nach unten und schließlich so weit wie möglich nach hinten."
-    },
-    {
-      "name": "C2",
-      "title": "Armzug vorne",
-      "parameters": ["***", "Griffe", "Hebel"],
-      "description": "Beim Armzug vorne trainieren Sie den zweiköpfigen Armmuskel, den Trapezmuskel sowie den großen Rückenmuskel. Während der Übung ziehen Sie die Griffe nach unten zur Brust."
-    },
-    {
-      "name": "C3",
-      "title": "Armzug",
-      "parameters": ["Sitz", "Griffe", "Hebel"],
-      "description": "Beim seitlichen Armzug trainieren Sie dieselben Muskeln wie beim Armzug vorne. Der große Rückenmuskel, der zweiköpfige Armmuskel sowie der Trapezmuskel werden trainiert. In der Ausführung ziehen Sie die Griffe nach unten, bis Ihre Hände neben Ihren Schultern befinden."
-    },
-    {
-      "name": "C5",
-      "title": "Rudern im Schultergelenk",
-      "parameters": ["***", "Griffe", "Hebel"],
-      "description": "Die Übung zum Rudern im Schultergelenk trainiert den Deltamuskel, den Trapezmuskel sowie den Rautenmuskel. Bei der Ausführung drücken Sie parallel zum Boden ein Polster mit den Armen so weit wie möglich nach hinten."
-    },
-    {
-      "name": "C7",
+      "name": "B01",
       "title": "Ruderzug",
-      "parameters": ["Polster"],
-      "description": "Beim Ruderzug trainieren Sie den großen Rückenmuskel, den zweiköpfigen Armmuskel, den Trapezmuskel sowie den Rautenmuskel. In der Ausführung ziehen Sie die Griffe nach hinten und führen die Ellbogen nahe am Körper entlang."
+      "parameters": ["Gewicht"],
+      "description": ""
     },
     {
-      "name": "D5",
-      "title": "Armkreuzen",
-      "parameters": ["Lehne", "Arme"],
-      "description": "Die Übung Armkreuzen trainiert den großen Brustmuskel. Bei der Ausführung sind die Oberarme parallel zum Boden, und Sie drücken die Hebelarme so weit nach vorne, bis sie sich berühren."
+      "name": "B02",
+      "title": "Lastzug",
+      "parameters": ["Gewicht"],
+      "description": "Eine Übung: Hälfte vorn herunterziehen, eine Hälfte hinten herunterziehen."
     },
     {
-      "name": "D6",
-      "title": "Brustdrücken",
-      "parameters": ["Sitz", "Lehne", "Griffe"],
-      "description": "Beim Brustdrücken trainieren Sie den großen Brustmuskel und den dreiköpfigen Armmuskel. Während der Übung drücken Sie die Hebelarme nach vorne, ohne dass die Arme vollständig gestreckt werden."
+      "name": "C01",
+      "title": "Butterfly Reverse",
+      "parameters": ["Gewicht"],
+      "description": ""
     },
     {
-      "name": "D7",
-      "title": "Barrenstütz sitzend",
-      "parameters": ["***", "Arme"],
-      "description": "Bei der Barrenstütz sitzend trainieren Sie den großen Brustmuskel, den dreiköpfigen Armmuskel (Trizeps) sowie den Trapezmuskel. In der Ausführung drücken Sie die Griffe nach unten und halten die Ellbogen nach außen gerichtet."
+      "name": "F10",
+      "title": "Bauch",
+      "parameters": ["Gewicht", "Fussrolle"],
+      "description": ""
     },
     {
-      "name": "E1",
-      "title": "Nackendrücken",
-      "parameters": ["***", "Arme"],
-      "description": "Beim Nackendrücken trainieren Sie den Deltamuskel, den dreiköpfigen Armmuskel sowie den vorderen Sägemuskel. Während der Übung drücken Sie die Griffe nach oben, ohne die Ellbogen ganz durchzustrecken."
+      "name": "B22",
+      "title": "Rückenstrecker",
+      "parameters": ["Gewicht", "Brustrolle", "Grundstellung"],
+      "description": ""
     },
     {
-      "name": "E2",
-      "title": "Seitheben",
-      "parameters": ["***", "Arme"],
-      "description": "Beim Seitheben trainieren Sie den Deltamuskel. Während der Übung ist der Oberarm im rechten Winkel zum Unterarm. Mit den Ellbogen drücken Sie die Polster seitlich nach oben."
+      "name": "F24",
+      "title": "Bauchpresse",
+      "parameters": ["Gewicht", "Brustrolle", "Fussstütze", "Grundstellung"],
+      "description": ""
     },
     {
-      "name": "E3",
-      "title": "Drücken",
-      "parameters": ["***", "Arme"],
-      "description": "Bei der Übung Drücken trainieren Sie den Deltamuskel, den dreiköpfigen Armmuskel, den großen Brustmuskel sowie den vorderen Sägemuskel. Während der Übung drücken Sie die Griffe nach oben, ohne die Ellbogen ganz durchzustrecken."
+      "name": "C02",
+      "title": "",
+      "parameters": ["Gewicht"],
+      "description": ""
     },
     {
-      "name": "E4",
-      "title": "Schulterdrehung nach innen",
-      "parameters": ["***", "Arme"],
-      "description": "Bei der Schulterdrehung nach innen trainieren Sie den Unterschulterblattmuskel. In der Ausführung drehen Sie den Arm nach vorne unten."
+      "name": "X01",
+      "title": "Rumpfrotation",
+      "parameters": ["Gewicht"],
+      "description": "Hälfte links, Hälfte rechts"
     },
     {
-      "name": "E5",
-      "title": "Schulterdrehung nach außen",
-      "parameters": ["***", "Arme"],
-      "description": "Bei der Schulterdrehung nach außen trainieren Sie den Untergrätenmuskel. In der Ausführung drehen Sie den Arm nach oben rückwärts."
-    },
-    {
-      "name": "F1.1",
-      "title": "Rumpfdrehung",
-      "parameters": ["Fuss", "Beine", "Kurbel", "Start", "Anschlag"],
-      "description": "Bei der Rumpfdrehung trainieren Sie den inneren und äußeren schrägen Bauchmuskel. Während der Übung drehen Sie den Oberkörper nach links und rechts."
-    },
-    {
-      "name": "F2.1",
-      "title": "Rumpfbeugung",
-      "parameters": ["Anschlag", "Füsse"],
-      "description": "Bei der Rumpfbeugung trainieren Sie den geeraden Bauchmuskel. Während der Übung rollen Sie sich maximal ein."
-    },
-    {
-      "name": "F3.1",
-      "title": "Rückenstreckung",
-      "parameters": ["Füsse", "Beine", "Hebel", "Start", "Anschlag"],
-      "description": "Bei der Rückenstreckung trainieren Sie die Rückenstrecker, also die Streckmuskeln der Wirbelsäule. Während der Übung richten Sie sich sitzend auf und strecken sich so weit wie möglich nach hinten"
-    },
-    {
-      "name": "G1",
-      "title": "Schulterheben",
-      "parameters": ["***"],
-      "description": "Beim Schulterheben trainieren Sie den Trapezmuskel. Während der Übung heben Sie die Schultern so weit wie möglich an."
-    },
-    {
-      "name": "G3",
-      "title": "Halsbeugung seitwärts",
-      "parameters": ["***"],
-      "description": "Bei der Halsbeugung seitwärts trainieren Sie den Kopfwender und den Trapezmuskel. Während der Übung bewegen Sie den Kopf zum Polster und drücken dieses zur Seite."
-    },
-    {
-      "name": "G4",
-      "title": "Halsbeugung nach vorne",
-      "parameters": ["***"],
-      "description": "Bei der Halsbeugung nach vorne trainieren Sie den langen Kopfmuskel und den Rippenhalter. Während der Übung legen Sie den Kopf in das Kopfpolster und drücken dieses langsam nach vorne."
-    },
-    {
-      "name": "G5",
-      "title": "Nackenstreckung",
-      "parameters": ["***"],
-      "description": "Die Übung zur Nackenstreckung trainiert die Streckmuskeln der Wirbelsäule und den Trapezmuskel. Während der Ausführung legen Sie den Hinterkopf in das Polster und drücken dieses langsam nach hinten."
-    },
-    {
-      "name": "H1",
-      "title": "Armbeugung",
-      "parameters": ["Sitz"],
-      "description": "Bei der Armbeugung trainieren Sie den zweiköpfigen Armmuskel. Während der Übung befinden sich die Ellbogen zwischen den Polstern und Sie beugen die Arme so weit wie möglich."
-    },
-    {
-      "name": "H2",
-      "title": "Armstreckung",
-      "parameters": ["***"],
-      "description": "Bei der Armstreckung trainieren Sie den dreiköpfigen Armmuskel. Während der Übung strecken Sie die Arme so weit wie möglich nach hinten."
-    },
-    {
-      "name": "H3",
-      "title": "Handdrehung nach innen",
-      "parameters": ["***"],
-      "description": "Bei der Handdrehung nach innen trainieren Sie den Einwärtsdreher. Während der Übung drehen Sie die Griffe so weit wie möglich nach innen."
-    },
-    {
-      "name": "H4",
-      "title": "Handdrehung nach außen",
-      "parameters": ["***"],
-      "description": "Bei der Handdrehung nach außen trainieren Sie den zweiköpfigen Armmuskel und den Auswärtsdreher. Während der Ausführung drehen Sie die Hände so weit wie möglich nach außen"
-    },
-    {
-      "name": "H5",
-      "title": "Beugung im Handgelenk",
-      "parameters": ["***"],
-      "description": "Die Übung zur Beugung im Handgelenk trainiert den Handbeuger. Während der Ausführung beugen Sie die Hand im Handgelenk so weit wie möglich nach oben."
-    },
-    {
-      "name": "H6",
-      "title": "Streckung im Handgelenk",
-      "parameters": ["***"],
-      "description": "Die Übung zur Streckung im Handgelenk trainiert den Handstrecker. Während der Ausführung strecken Sie die Hände im Handgelenk so weit wie möglich nach oben."
-    },
-    {
-      "name": "H7",
-      "title": "Fingerbeugung",
-      "parameters": ["***"],
-      "description": "Bei der Fingerbeugung trainieren Sie den Fingerbeuger. Während der Übung umfassen Sie die hinteren beweglichen Handgriffe und führen diese so weit an die fixierten vorderen Griffe heran, dass Sie mit den Daumen die Griffe umfassen können."
-    },
-    {
-      "name": "J1",
-      "title": "Fersenheben",
-      "parameters": ["***"],
-      "description": "Bei der Fingerbeugung trainieren Sie den Fingerbeuger. Während der Übung umfassen Sie die hinteren beweglichen Handgriffe und führen diese so weit an die fixierten vorderen Griffe heran, dass Sie mit den Daumen die Griffe umfassen können."
-    },
-    {
-      "name": "J2",
-      "title": "Klimmzug vorne",
-      "parameters": ["***"],
-      "description": "Beim Klimmzug vorne trainieren Sie den großen Rückenmuskel, den Trapezmuskel sowie den zweiköpfigen Armmuskel. Während der Übung fassen Sie die Stange und senken langsam Ihren Körper, bis die Arme gestreckt sind."
-    },
-    {
-      "name": "J3",
-      "title": "Klimmzug seitlich",
-      "parameters": ["***"],
-      "description": "Beim Klimmzug seitlich trainieren Sie wie beim Klimmzug vorne den großen Rückenmuskel, den Trapezmuskel sowie den zweiköpfigen Armmuskel. Während der Übung fassen Sie die seitlichen Stangen und senken langsam Ihren Körper, bis die Arme gestreckt sind."
-    },
-    {
-      "name": "J4",
-      "title": "Barrensitz",
-      "parameters": ["***"],
-      "description": "Bei der Fingerbeugung trainieren Sie den Fingerbeuger. Während der Übung umfassen Sie die hinteren beweglichen Handgriffe und führen diese so weit an die fixierten vorderen Griffe heran, dass Sie mit den Daumen die Griffe umfassen können."
-    },
-    {
-      "name": "J5",
-      "title": "Armstreckung stehend",
-      "parameters": ["***"],
-      "description": "Die Armstreckung stehend trainiert den dreiköpfigen Armmuskel. Bei der Übung fassen Sie mit beiden Händen das Seil und strecken die Arme bis zur fast vollständigen Streckung.."
-    },
-    {
-      "name": "J9",
-      "title": "Seitbeuge",
-      "parameters": ["***"],
-      "description": "Bei der Fingerbeugung trainieren Sie den Fingerbeuger. Während der Übung umfassen Sie die hinteren beweglichen Handgriffe und führen diese so weit an die fixierten vorderen Griffe heran, dass Sie mit den Daumen die Griffe umfassen können."
-    },
-    {
-      "name": "K2",
-      "title": "Klimmzug vorne unterstützt",
-      "parameters": ["***"],
-      "description": "Beim Klimmzug vorne mit Unterstützung trainieren Sie den großen Rückenmuskel, den Trapezmuskel sowie den zweiköpfigen Armmuskel. Während der Übung fassen Sie die Stange und ziehen Ihren Körper nach oben, bis das Kinn die Stangenhöhe erreicht."
-    },
-    {
-      "name": "K3",
-      "title": "Klimmzug seitlich unterstützt",
-      "parameters": ["***"],
-      "description": "Beim Klimmzug seitlich mit Unterstützung trainieren Sie wie beim Klimmzug seitlich den großen Rückenmuskel, den Trapezmuskel sowie den zweiköpfigen Armmuskel. Während der Übung fassen Sie die seitlichen Stangen und ziehen Ihren Körper nach oben, bis das Kinn die Stangenhöhe erreicht."
-    },
-    {
-      "name": "K4",
-      "title": "Barrenstütz unterstützt",
-      "parameters": ["***"],
-      "description": "Bei der Barrenstütz mit Unterstützung trainieren Sie den großen Brustmuskel, den Trapezmuskel sowie den dreiköpfigen Armmuskel. Während der Ausführung stützen Sie sich auf die seitlichen Griffe und senken Ihren Körper bis zur vollständigen Dehnung."
+      "name": "X02",
+      "title": "Haltungsstabilisator",
+      "parameters": ["Gewicht", "Schenkel r/l", "Rotation"],
+      "description": ""
     }
   ]
 }
