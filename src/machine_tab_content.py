@@ -15,7 +15,6 @@ from flet import (
     Row,
     Text,
     TextStyle,
-    UserControl,
     alignment,
     colors,
     icons,
@@ -27,7 +26,7 @@ from model.result import Result
 
 DATE_FORMAT = "%d. %B %Y"
 
-class MachineTabContent(UserControl):
+class MachineTabContent():
     def __init__(self,
                  customerID,
                  machineID,

@@ -3,12 +3,10 @@ from flet import (
     ElevatedButton,
     MainAxisAlignment,
     Text,
-    TextButton,
-    UserControl,
-
+    TextButton
 )
 
-class ConfirmDialog(UserControl):
+class ConfirmDialog():
     def __init__(self, page, title, question, confirmed_action):
         super().__init__()
         self.page = page

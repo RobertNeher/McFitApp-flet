@@ -16,7 +16,6 @@ from flet import (
     SnackBar,
     Text,
     TextStyle,
-    UserControl,
     alignment,
     border,
     colors,
@@ -27,7 +26,7 @@ from src.helper import formatDate
 from src.confirm import ConfirmDialog
 from model.result import Result
 
-class TrainingsOverview(UserControl):
+class TrainingsOverview():
     def __init__(self, page, customerID):
         super().__init__()
         self.page = page

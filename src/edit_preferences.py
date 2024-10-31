@@ -12,14 +12,13 @@ from flet import (
     Row,
     Text,
     TextField,
-    UserControl,
     alignment,
     colors,
 )
 
 from model.preferences import Preferences
 
-class EditPreferences(UserControl):
+class EditPreferences():
     def __init__(self, page: Page, backRoute):
         super().__init__()
         self.prefs=Preferences()

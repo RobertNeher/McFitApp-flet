@@ -8,13 +8,12 @@ from flet import (
     Text,
     TextButton,
     TextField,
-    UserControl,
     dropdown,
 )
 from src.helper import extract_list, formatDate
 from model.machine import Machine
 
-class EditPlanMachine(UserControl):
+class EditPlanMachine():
     def __init__(self, page, fields):
         super().__init__()
         self.fields = fields

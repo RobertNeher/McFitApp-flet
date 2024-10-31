@@ -7,11 +7,10 @@ from flet import (
     MainAxisAlignment,
     Page,
     Text,
-    UserControl,
     colors,
 )
 
-class About (UserControl):
+class About ():
     def __init__(self, page: Page):
         super().__init__()
         self.page = page

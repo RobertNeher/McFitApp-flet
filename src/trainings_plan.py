@@ -5,7 +5,6 @@ from flet import (
     Tab,
     Tabs,
     Text,
-    UserControl,
     alignment,
     colors,
 )
@@ -16,7 +15,7 @@ from model.result import Result
 from src.machine_tab_content import MachineTabContent
 from src.helper import extract_list
 
-class TrainingsPlan(UserControl):
+class TrainingsPlan():
     def __init__(self, page, customerID):
         super().__init__()
         self.customerID = customerID

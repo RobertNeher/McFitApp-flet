@@ -16,7 +16,6 @@ from flet import (
     SnackBar,
     Text,
     TextStyle,
-    UserControl,
     alignment,
     border,
     colors,
@@ -32,7 +31,7 @@ from model.plan import Plan
 PARAMETER_ROW_HEIGHT = 20
 
 
-class EditTrainingsPlan(UserControl):
+class EditTrainingsPlan():
     def __init__(self, page, customerID):
         super().__init__()
         self.page = page

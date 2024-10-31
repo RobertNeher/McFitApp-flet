@@ -11,13 +11,13 @@ from flet import (
     MainAxisAlignment,
     Page,
     TextField,
-    UserControl,
     colors,
+    Window
 )
 from model.customer import Customer
 from model.preferences import Preferences
 
-class Login(UserControl):
+class Login(Window):
 
     def loginClick(self, e):
         self.page.go("/trainingsplan")
@@ -71,5 +71,5 @@ class Login(UserControl):
 
 #-------------------------- TEST -------------------------#
 if __name__ == "__main__":
-    c = Login(page=UserControl())
+    c = Login()
     print(c.customer)
